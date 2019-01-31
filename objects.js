@@ -2,6 +2,6 @@ var playlist = {
   sonia: 'Where are you?',
   diana: 'I am lost'
 }
-function updatedList (obj,key,value) {
+function updatedList (playlist,key,value) {
   return playlist.assign({},obj,{[key]:value});
 }
