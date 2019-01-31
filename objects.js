@@ -3,5 +3,5 @@ var playlist = {
   diana: 'I am lost'
 }
 function updatedList (obj,key,value) {
-  return obj.assign({},obj,{[key]:value});
+  return obj.key = 'value';
 }
